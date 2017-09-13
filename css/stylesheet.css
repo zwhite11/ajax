@@ -19,15 +19,24 @@
 }
 
 .section{
-    /* border: 1px solid black; */
     float: left;
-    position: relative;
-    
+    position: relative;    
+}
+
+.s1{
+    width: 50%;
+}
+.s2{
+    width: 50%;
+}
+.s3{
+    width: 100%;
+    margin-top: 2.5%;
 }
 
 .content{
     position: relative;
-    /* border: 1px solid blue; */
+    border: 1px solid black;    
     width: 95%;
     height: 100px;
     overflow: hidden;
@@ -35,22 +44,23 @@
     margin-left: auto;
     background-color: grey;  
 }
-
 .content:hover{
     overflow: auto;
 }
 
+.c3{
+    width: 97.5%;
+}
 
 .label{
-    /* border: 1px solid black; */
     width: 33.33%;
     float: right;
     text-align: center;
     font-size: 125%;
+    border: 1px solid black;   
 }
 
 p{
-    /* border: 1px solid black; */
     position: relative;
     clear: both;
     padding: 5px;
@@ -83,7 +93,16 @@ p{
 @media (min-width: 992px) {
     .section{
         width: 33.333%;
-    }      
+    }
+
+    .c3{
+        width: 95%;
+    }
+
+    .s3{
+        margin-top: 0;
+    }
+          
 }
 
 /********** Medium devices only **********/
@@ -123,7 +142,6 @@ p{
         font-size: 75%;
         font-family: Courier New, Courier, monospace;  
         font-weight: bold;      
-        /* border: 1px solid black; */
     }
     .title{
         position: relative;
@@ -141,7 +159,5 @@ p{
 
     .sushi:before{
         content: "sushi hopkins hopkins hopkins hopkins hopkins hopkins hopkins hopkins hopkins";
-    }
-
-    
+    }    
 } 
