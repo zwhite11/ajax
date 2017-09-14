@@ -20,7 +20,7 @@
 
 .section{
     float: left;
-    position: relative;    
+    position: relative; 
 }
 
 .s1{
@@ -36,20 +36,19 @@
 
 .content{
     position: relative;
-    border: 1px solid black;    
     width: 95%;
-    height: 100px;
-    overflow: hidden;
     margin-right: auto;
     margin-left: auto;
     background-color: grey;  
 }
-.content:hover{
-    overflow: auto;
-}
+
 
 .c3{
     width: 97.5%;
+}
+.top_row{
+    width: 100%;
+    background-color: grey;
 }
 
 .label{
@@ -57,7 +56,7 @@
     float: right;
     text-align: center;
     font-size: 125%;
-    border: 1px solid black;   
+    border: 1px solid black;
 }
 
 p{
@@ -65,7 +64,13 @@ p{
     clear: both;
     padding: 5px;
     margin: 5px;
+    height: 100px;
+    overflow: hidden;
 }
+p:hover{
+    overflow: auto;
+}
+
 
 .chicken{
     background-color: pink;
