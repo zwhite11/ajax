@@ -42,12 +42,9 @@
     background-color: grey; 
     border: 1px solid black; 
 }
-
-
 .c3{
     width: 97.5%;
 }
-
 
 .label{
     width: 33.33%;
@@ -131,6 +128,7 @@ p:hover{
     .section{
         width: 100%;
         margin-bottom: 10px;
+        margin-top: 0;
     }
     .label{
         width: 100%;
@@ -150,7 +148,10 @@ p:hover{
         float: left;
         margin-left: 2.5%;
     }
-
+    
+    .c3{        width: 95%;
+        
+    }
     .chicken:before{
         content: "chicken hopkins hopkins hopkins hopkins hopkins hopkins hopkins hopkins hopkins"; 
     }
