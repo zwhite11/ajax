@@ -39,17 +39,15 @@
     width: 95%;
     margin-right: auto;
     margin-left: auto;
-    background-color: grey;  
+    background-color: grey; 
+    border: 1px solid black; 
 }
 
 
 .c3{
     width: 97.5%;
 }
-.top_row{
-    width: 100%;
-    background-color: grey;
-}
+
 
 .label{
     width: 33.33%;
@@ -70,7 +68,6 @@ p{
 p:hover{
     overflow: auto;
 }
-
 
 .chicken{
     background-color: pink;
