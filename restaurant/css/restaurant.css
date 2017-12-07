@@ -4,6 +4,9 @@ body {
   background-color: #61122f;
   font-family: 'Oxygen', sans-serif;
 }
+.form{
+  color:black;
+}
 
 .initial-loading {
   margin-top: 60px;

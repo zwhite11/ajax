@@ -1,0 +1,65 @@
+<link rel="stylesheet" href="css/form.css">
+
+    <div class="container">
+        <fieldset>
+            <form name='regForm' ng-controller="RegistrationController as regCtrl"  class="form" novalidate>
+                <input type="text" name="firstName" placeholder="First Name"
+                    ng-model="regCtrl.user.firstName"
+                    required>
+                    <span 
+                    ng-if="regForm.firstName.$error.required && regForm.firstName.$touched">You must enter your first name
+                    </span>
+                <br> 
+            
+                <input type="text" name="lastName" placeholder="Last Name"
+                    ng-model="regCtrl.user.lastName"
+                    required>
+                <span ng-if="regForm.lastName.$error.required && regForm.lastName.$touched">You must enter your last name
+                    </span>
+                <br>
+            
+                <input type="email" name="email" placeholder="Email"
+                    ng-model="regCtrl.user.email"
+                    required>
+                <span ng-if="regForm.email.$invalid && regForm.email.$touched">
+                    Must be a valid email address: handle@domain format
+                </span>
+                <br>
+            
+                <input type="text" name="phone" placeholder="Phone ###-###-####"
+                    ng-model="regCtrl.user.phone"
+                    pattern="(\d{3})-(\d{3})-(\d{4})"
+                    required>
+                <span ng-if="(regForm.phone.$error.required || regForm.phone.$invalid) && regForm.phone.$touched">
+                    Phone must be in the format ###-###-####.
+                </span>
+                <br>
+            
+                <input type="text" name="favorite" placeholder="Favorite Dish"
+                ng-model="regCtrl.user.favorite"
+                ng-blur="regCtrl.categoryCheck(regCtrl.user.favorite)"
+                required>
+                <span ng-if="regForm.favorite.$error.required && regForm.favorite.$touched">You must enter your favorite dish
+                    </span>
+                <span ng-if="regCtrl.catExists">Good choice!</span>
+                
+                <br>   
+            
+            
+                <button ng-disabled="regForm.$invalid || !regCtrl.catExists"
+                    ng-click="regCtrl.submit(regCtrl.user)">Submit</button> 
+                    <br> 
+
+                <httpResponse></httpResponse>
+                <br>
+                <span ng-if="regCtrl.completed">Your information has been saved.</span>
+                
+                
+                </form>
+        </fieldset>
+    
+        </div>
+
+
+
+
