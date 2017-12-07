@@ -14,8 +14,7 @@
 
         service.getUser = function(){
             return service.user;
-        };
-            
+        };           
         
     }
 
