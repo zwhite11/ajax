@@ -22,7 +22,7 @@
         service.getStatsForPlayer = function(shortName){
             var response = $http({
                 method: "GET",
-                url: ("/players/" + shortName + ".json")            
+                url: ("./players/" + shortName + ".json")            
             });    
 
             return response;            
