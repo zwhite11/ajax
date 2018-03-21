@@ -35,3 +35,14 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 h2{
     text-decoration: underline;
 }
+
+@media screen and (max-width: 767px) {
+    .link{
+        font-size: 200%;
+    }
+
+    th, td {
+        text-align: center;
+        padding: 2px;
+    }
+}    
