@@ -12,7 +12,7 @@
         service.getAllPlayers = function(){
             var response = $http({
                 method: "GET",
-                url: ("ajax/penguinStatSite/players.json")            
+                url: ("/ajax/penguinStatSite/players.json")            
             });
 
             // console.log("response: ", response);
