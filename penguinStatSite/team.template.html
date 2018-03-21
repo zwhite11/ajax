@@ -1,0 +1,178 @@
+<div class="col-lg-2">
+    <h2>Game Stats</h2>
+    <ul>
+        <li ng-repeat="game in gameList.games" ui-sref="team.teamStats({round: game.round})" class="link">
+          Round {{game.round}}, {{ game.opponent }} 
+        </li>
+    </ul>
+    <p> 
+      pip = Point in the Paint <br>
+      scp = Second Chance Points <br>
+      pft = Points From Turnovers <br>
+      fbp = Fast Break Points <br>
+      bp = Bench Points <br>
+    </p>
+</div>
+
+<ui-view class="col-lg-10"></ui-view>  
+
+
+<div class="col-lg-12">
+  <h2>Season Stats</h2>
+  <h3>Totals</h3>
+  <table>
+    <th></th>
+    <th>fgm</th>
+    <th>fga</th>
+    <th>2ptm</th>
+    <th>2pta</th>
+    <th>3ptm</th>
+    <th>3pta</th>
+    <th>ftm</th>
+    <th>fta</th>
+    <th>oreb</th>
+    <th>reb</th>
+    <th>ast</th>
+    <th>stl</th>
+    <th>blk</th>
+    <th>to</th>       
+    <th>pf</th>
+    <th>pip</th>
+    <th>scp</th>
+    <th>pft</th>
+    <th>fbp</th>
+    <th>bp</th>
+  
+    <tr>
+      <td>Opponent</td>
+      <td>{{gameList.oppTotals.fgm}}</td>
+      <td>{{gameList.oppTotals.fga}}</td>
+      <td>{{gameList.oppTotals.twoptm}}</td>
+      <td>{{gameList.oppTotals.twopta}}</td>
+      <td>{{gameList.oppTotals.threeptm}}</td>
+      <td>{{gameList.oppTotals.threepta}}</td>
+      <td>{{gameList.oppTotals.ftm}}</td>
+      <td>{{gameList.oppTotals.fta}}</td>
+      <td>{{gameList.oppTotals.oreb}}</td>
+      <td>{{gameList.oppTotals.reb}}</td>
+      <td>{{gameList.oppTotals.ast}}</td>
+      <td>{{gameList.oppTotals.stl}}</td>
+      <td>{{gameList.oppTotals.blk}}</td>
+      <td>{{gameList.oppTotals.to}}</td>
+      <td>{{gameList.oppTotals.pf}}</td>
+      <td>{{gameList.oppTotals.pip}}</td>
+      <td>{{gameList.oppTotals.scp}}</td>
+      <td>{{gameList.oppTotals.pft}}</td>
+      <td>{{gameList.oppTotals.fbp}}</td>
+      <td>{{gameList.oppTotals.bp}}</td>  
+    </tr>
+    <tr>
+        <td>Us</td>
+        <td>{{gameList.ourTotals.fgm}}</td>
+        <td>{{gameList.ourTotals.fga}}</td>
+        <td>{{gameList.ourTotals.twoptm}}</td>
+        <td>{{gameList.ourTotals.twopta}}</td>
+        <td>{{gameList.ourTotals.threeptm}}</td>
+        <td>{{gameList.ourTotals.threepta}}</td>
+        <td>{{gameList.ourTotals.ftm}}</td>
+        <td>{{gameList.ourTotals.fta}}</td>
+        <td>{{gameList.ourTotals.oreb}}</td>
+        <td>{{gameList.ourTotals.reb}}</td>
+        <td>{{gameList.ourTotals.ast}}</td>
+        <td>{{gameList.ourTotals.stl}}</td>
+        <td>{{gameList.ourTotals.blk}}</td>
+        <td>{{gameList.ourTotals.to}}</td>
+        <td>{{gameList.ourTotals.pf}}</td>
+        <td>{{gameList.ourTotals.pip}}</td>
+        <td>{{gameList.ourTotals.scp}}</td>
+        <td>{{gameList.ourTotals.pft}}</td>
+        <td>{{gameList.ourTotals.fbp}}</td>
+        <td>{{gameList.ourTotals.bp}}</td>
+    
+  </tr>
+  </table>
+</div>
+<div class="col-lg-12">
+    <h3>Averages</h3>
+    <table>
+      <th></th>
+      <th>fgm</th>
+      <th>fga</th>
+      <th>2ptm</th>
+      <th>2pta</th>
+      <th>3ptm</th>
+      <th>3pta</th>
+      <th>ftm</th>
+      <th>fta</th>
+      <th>oreb</th>
+      <th>reb</th>
+      <th>ast</th>
+      <th>stl</th>
+      <th>blk</th>
+      <th>to</th>       
+      <th>pf</th>
+      <th>pip</th>
+      <th>scp</th>
+      <th>pft</th>
+      <th>fbp</th>
+      <th>bp</th>
+    
+      <tr>
+        <td>Opponent</td>
+        <td>{{gameList.oppAverages.fgm}}</td>
+        <td>{{gameList.oppAverages.fga}}</td>
+        <td>{{gameList.oppAverages.twoptm}}</td>
+        <td>{{gameList.oppAverages.twopta}}</td>
+        <td>{{gameList.oppAverages.threeptm}}</td>
+        <td>{{gameList.oppAverages.threepta}}</td>
+        <td>{{gameList.oppAverages.ftm}}</td>
+        <td>{{gameList.oppAverages.fta}}</td>
+        <td>{{gameList.oppAverages.oreb}}</td>
+        <td>{{gameList.oppAverages.reb}}</td>
+        <td>{{gameList.oppAverages.ast}}</td>
+        <td>{{gameList.oppAverages.stl}}</td>
+        <td>{{gameList.oppAverages.blk}}</td>
+        <td>{{gameList.oppAverages.to}}</td>
+        <td>{{gameList.oppAverages.pf}}</td>
+        <td>{{gameList.oppAverages.pip}}</td>
+        <td>{{gameList.oppAverages.scp}}</td>
+        <td>{{gameList.oppAverages.pft}}</td>
+        <td>{{gameList.oppAverages.fbp}}</td>
+        <td>{{gameList.oppAverages.bp}}</td>
+    
+      </tr>
+      <tr>
+          <td>Us</td>
+          <td>{{gameList.ourAverages.fgm}}</td>
+          <td>{{gameList.ourAverages.fga}}</td>
+          <td>{{gameList.ourAverages.twoptm}}</td>
+          <td>{{gameList.ourAverages.twopta}}</td>
+          <td>{{gameList.ourAverages.threeptm}}</td>
+          <td>{{gameList.ourAverages.threepta}}</td>
+          <td>{{gameList.ourAverages.ftm}}</td>
+          <td>{{gameList.ourAverages.fta}}</td>
+          <td>{{gameList.ourAverages.oreb}}</td>
+          <td>{{gameList.ourAverages.reb}}</td>
+          <td>{{gameList.ourAverages.ast}}</td>
+          <td>{{gameList.ourAverages.stl}}</td>
+          <td>{{gameList.ourAverages.blk}}</td>
+          <td>{{gameList.ourAverages.to}}</td>
+          <td>{{gameList.ourAverages.pf}}</td>
+          <td>{{gameList.ourAverages.pip}}</td>
+          <td>{{gameList.ourAverages.scp}}</td>
+          <td>{{gameList.ourAverages.pft}}</td>
+          <td>{{gameList.ourAverages.fbp}}</td>
+          <td>{{gameList.ourAverages.bp}}</td>
+      
+    </tr>
+    </table>
+
+  </div>
+
+<br>
+
+
+
+
+
+

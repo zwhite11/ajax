@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app='StatApp'>
+    <head>
+        <meta charset="utf-8">
+        <title>Penguin Basketball Stats</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/stylesheet.css">
+    </head>
+    <body>
+        <h1><a href="index.html">Penguin Men's Basketball Stats</a></h1>
+        <div>
+            <ui-view></ui-view>
+        </div>        
+        
+        <script src="lib/angular.min.js"></script>
+        <script src="lib/angular-ui-router.min.js"></script>
+
+        <script src="statapp.module.js"></script>
+        <script src="data.module.js"></script>
+        <script src="players.component.js"></script>        
+        <script src="stats.component.js"></script>
+        
+        <script src="players.controller.js"></script>
+        <script src="stat.controller.js"></script>
+        <script src="playerdata.service.js"></script>
+
+        <script src="team.controller.js"></script>
+        <script src="teamStats.controller.js"></script>
+        <script src="team.component.js"></script>
+        <script src="teamdata.service.js"></script>
+     
+        <script src="routes.js"></script> 
+        
+
+    </body>
+</html>

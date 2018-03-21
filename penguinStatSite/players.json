@@ -1,0 +1,74 @@
+[
+    {
+    "name": "Zac White",
+    "short_name": "zw",
+    "url": "/zw.json"
+    },
+    
+    {
+        "name": "Fraser Eaton",
+        "short_name": "fe",
+        "url": "/fe.json"
+    },
+    {
+        "name": "Joel Beveridge",
+        "short_name": "job",
+        "url": "/job.json"
+    },
+    {
+        "name": "Jaylen Beveridge",
+        "short_name": "jab",
+        "url": "/jab.json"
+    },
+    {
+        "name": "Cam Brown",
+        "short_name": "cb",
+        "url": "/cb.json"
+    },
+    {
+        "name": "Jayden Van Essen",
+        "short_name": "je",
+        "url": "/je.json"
+    },
+    {
+        "name": "Josh Stafford",
+        "short_name": "js",
+        "url": "/js.json"
+    },
+    {
+        "name": "Tyler Kelly",
+        "short_name": "tk",
+        "url": "/tk.json"
+    },
+    {
+        "name": "Matt Donnelly",
+        "short_name": "md",
+        "url": "/md.json"
+    },
+    {
+        "name": "Bailey Wright",
+        "short_name": "bw",
+        "url": "/bw.json"
+    },
+    {
+        "name": "Taj Williams",
+        "short_name": "tw",
+        "url": "/tw.json"
+    },
+    {
+        "name": "Matt Kinch",
+        "short_name": "mk",
+        "url": "/mk.json"
+    },
+    {
+        "name": "Jason Baker",
+        "short_name": "jb",
+        "url": "/jb.json"
+    },
+    {
+        "name": "Darcy Malone",
+        "short_name": "dm",
+        "url": "/dm.json"
+    }
+
+]

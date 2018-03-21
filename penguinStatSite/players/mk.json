@@ -1,0 +1,63 @@
+{
+    "name": "Jaylen Beveridge",
+    "stats": 
+        [
+        {        
+            "opponent": "Wynyard",
+            "location": "A",
+            "mins": 5,
+            "pts": 1,
+            "fgm": 0,
+            "fga": 0,
+            "fgp": 0,
+            "twoptm": 0,
+            "twopta": 0,
+            "twoptp": 0,
+            "threeptm": 0,
+            "threepta": 0,
+            "threeptp": 0,
+            "ftm": 1,
+            "fta": 2,
+            "ftp": 50,
+            "oreb": 0,
+            "dreb": 0,
+            "ast": 0,
+            "to":0,
+            "stl": 0,
+            "blk": 0,
+            "blkr": 0,
+            "pf": 1,
+            "flson": 1,
+            "plusMinus": -6
+            
+        },
+        {        
+            "opponent": "Latrobe",
+            "location": "H",
+            "mins": 32,
+            "pts": 12,
+            "fgm": 2,
+            "fga": 4,
+            "fgp": 50,
+            "twoptm": 0,
+            "twopta": 0,
+            "twoptp": 0,
+            "threeptm": 2,
+            "threepta": 4,
+            "threeptp": 50,
+            "ftm": 6,
+            "fta": 6,
+            "ftp": 100,
+            "oreb": 1,
+            "dreb": 3,
+            "ast": 2,
+            "to":4,
+            "stl": 2,
+            "blk": 0,
+            "blkr": 0,
+            "pf": 3,
+            "flson": 2,
+            "plusMinus": 12           
+        }]   
+    
+}
