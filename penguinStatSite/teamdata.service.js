@@ -11,7 +11,7 @@
         service.getAllGames = function(){
             var response = $http({
                 method: "GET",
-                url: ("/teamStats/opponentStats.json")            
+                url: ("./teamStats/opponentStats.json")            
             });
 
             // console.log("response: ", response);
@@ -21,7 +21,7 @@
         service.getGameStats = function(round){
             var response = $http({
                 method: "GET",
-                url: ("/teamStats/opponentStats.json")            
+                url: ("./teamStats/opponentStats.json")            
             });  
             service.round = round;
 
@@ -31,7 +31,7 @@
         service.getOurStats = function(round){
             var response = $http({
                 method: "GET",
-                url: ("/teamStats/ourStats.json")            
+                url: ("./teamStats/ourStats.json")            
             });  
             service.round = round;
 
