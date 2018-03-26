@@ -32,7 +32,7 @@
         service.getAllWPlayers = function(){
             var response = $http({
                 method: "GET",
-                url: ("/wPlayers.json")            
+                url: ("./wPlayers.json")            
             });
             return response;
         };
