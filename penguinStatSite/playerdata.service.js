@@ -12,7 +12,7 @@
         service.getAllPlayers = function(){
             var response = $http({
                 method: "GET",
-                url: ("./players.json")            
+                url: ("/ajax/penguinStatSite/players.json")            
             });
 
             return response;
@@ -21,7 +21,7 @@
         service.getStatsForPlayer = function(shortName){
             var response = $http({
                 method: "GET",
-                url: ("./players/" + shortName + ".json")            
+                url: ("/ajax/penguinStatSite/players/" + shortName + ".json")            
             });    
 
             return response;            
@@ -32,7 +32,7 @@
         service.getAllWPlayers = function(){
             var response = $http({
                 method: "GET",
-                url: ("./wPlayers.json")            
+                url: ("/ajax/penguinStatSite/wPlayers.json")            
             });
             return response;
         };
