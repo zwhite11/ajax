@@ -35,7 +35,7 @@
             totals.twoptm += playerStats.stats[i].twoptm;
             totals.twopta += playerStats.stats[i].twopta;
             totals.threeptm += playerStats.stats[i].threeptm;
-            totals.threepta += playerStats.stats[i].threepta
+            totals.threepta += playerStats.stats[i].threepta;
             totals.ftm += playerStats.stats[i].ftm;
             totals.fta += playerStats.stats[i].fta;
             totals.oreb += playerStats.stats[i].oreb;
@@ -70,6 +70,12 @@
         else{
             totals.threeptp = ((totals.threeptm/totals.threepta)*100).toFixed(2);
         }
+        if(totals.fta == 0){
+            totals.ftp = 0;
+        }
+        else{
+            totals.ftp = ((totals.ftm/totals.fta)*100).toFixed(2);
+        }
 
         playerStats.totals = [];
         playerStats.totals.push(totals);
@@ -95,7 +101,7 @@
             averages.fta = ( totals.fta/gamesPlayed).toFixed(2);
             averages.oreb = ( totals.oreb/gamesPlayed).toFixed(2);
             averages.dreb = ( totals.dreb/gamesPlayed).toFixed(2);
-            averages.reb = parseFloat(averages.oreb) + parseFloat(averages.dreb);
+            averages.reb = (parseFloat(averages.oreb) + parseFloat(averages.dreb)).toFixed(2);
             averages.ast = ( totals.ast/gamesPlayed).toFixed(2);
             averages.to = ( totals.to/gamesPlayed).toFixed(2);
             averages.stl = ( totals.stl/gamesPlayed).toFixed(2);

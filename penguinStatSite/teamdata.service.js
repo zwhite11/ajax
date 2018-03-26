@@ -11,7 +11,7 @@
         service.getAllGames = function(){
             var response = $http({
                 method: "GET",
-                url: ("./teamStats/opponentStats.json")            
+                url: ("/teamStats/opponentStats.json")            
             });
 
             // console.log("response: ", response);
@@ -21,7 +21,7 @@
         service.getGameStats = function(round){
             var response = $http({
                 method: "GET",
-                url: ("./teamStats/opponentStats.json")            
+                url: ("/teamStats/opponentStats.json")            
             });  
             service.round = round;
 
@@ -31,9 +31,41 @@
         service.getOurStats = function(round){
             var response = $http({
                 method: "GET",
-                url: ("./teamStats/ourStats.json")            
+                url: ("/teamStats/ourStats.json")            
             });  
             service.round = round;
+
+            return response;            
+        };
+
+
+        //WOMENS GAMES
+
+        service.getAllWGames = function(){
+            var response = $http({
+                method: "GET",
+                url: ("/wTeamStats/opponentStats.json")            
+            });
+
+            // console.log("response: ", response);
+            return response;
+        };
+
+        service.getWGameStats = function(round){
+            var response = $http({
+                method: "GET",
+                url: ("/wTeamStats/opponentStats.json")            
+            });  
+            service.round = round;
+
+            return response;            
+        };
+
+        service.getOurWStats = function(){
+            var response = $http({
+                method: "GET",
+                url: ("/wTeamStats/ourStats.json")            
+            });  
 
             return response;            
         };

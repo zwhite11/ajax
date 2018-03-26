@@ -17,15 +17,16 @@
 
       //---------their stats-----------
       var oppTotals = {};
-      oppTotals.fga, oppTotals.twoptm, oppTotals.twopta, oppTotals.threeptm, oppTotals.threepta, oppTotals.ftm, oppTotals.fta, oppTotals.oreb, oppTotals.reb, oppTotals.ast, oppTotals.stl,oppTotals.blk,oppTotals.to,oppTotals.pf,oppTotals.pip,oppTotals.scp,oppTotals.pft,oppTotals.fbp,oppTotals.bp;
+      oppTotals.pts,oppTotals.fga, oppTotals.twoptm, oppTotals.twopta, oppTotals.threeptm, oppTotals.threepta, oppTotals.ftm, oppTotals.fta, oppTotals.oreb, oppTotals.reb, oppTotals.ast, oppTotals.stl,oppTotals.blk,oppTotals.to,oppTotals.pf,oppTotals.pip,oppTotals.scp,oppTotals.pft,oppTotals.fbp,oppTotals.bp;
       
       oppTotals.fgm = 0;
-      oppTotals.fga= oppTotals.twoptm= oppTotals.twopta= oppTotals.threeptm= oppTotals.threepta= oppTotals.ftm= oppTotals.fta= oppTotals.oreb= oppTotals.reb= oppTotals.ast= oppTotals.stl=oppTotals.blk=oppTotals.to=oppTotals.pf=oppTotals.pip=oppTotals.scp=oppTotals.pft=oppTotals.fbp=oppTotals.bp=oppTotals.fgm;
+      oppTotals.pts=oppTotals.fga= oppTotals.twoptm= oppTotals.twopta= oppTotals.threeptm= oppTotals.threepta= oppTotals.ftm= oppTotals.fta= oppTotals.oreb= oppTotals.reb= oppTotals.ast= oppTotals.stl=oppTotals.blk=oppTotals.to=oppTotals.pf=oppTotals.pip=oppTotals.scp=oppTotals.pft=oppTotals.fbp=oppTotals.bp=oppTotals.fgm;
 
       var gamesPlayed = gameList.games.length;
 
       var i;
       for(i=0; i < gamesPlayed; i++){
+        oppTotals.pts += gameList.games[i].pts;
         oppTotals.fgm += gameList.games[i].fgm;
         oppTotals.fga += gameList.games[i].fga;
         oppTotals.twoptm += gameList.games[i].twoptm;
@@ -47,18 +48,25 @@
         oppTotals.fbp += gameList.games[i].fbp;
         oppTotals.bp += gameList.games[i].bp;
       }
+      //percentages
+      oppTotals.fgp = ((oppTotals.fgm/oppTotals.fga) * 100).toFixed(2);
+      oppTotals.twoptp = ((oppTotals.twoptm/oppTotals.twopta) * 100).toFixed(2);
+      oppTotals.threeptp = ((oppTotals.threeptm/oppTotals.threepta) * 100).toFixed(2);
+      oppTotals.ftp = ((oppTotals.ftm/oppTotals.fta) * 100).toFixed(2);
+      console.log("fgp", oppTotals.fgp);
 
       gameList.oppTotals = oppTotals;
       console.log("oppTotals", gameList.oppTotals);
 
       //calculate averages
       var oppAverages = {};
+      oppAverages.pts = ( oppTotals.pts/gamesPlayed).toFixed(2);
       oppAverages.fgm = ( oppTotals.fgm/gamesPlayed).toFixed(2);
       oppAverages.fga = ( oppTotals.fga/gamesPlayed).toFixed(2);
       oppAverages.twoptm = ( oppTotals.twoptm/gamesPlayed).toFixed(2);
       oppAverages.twopta = ( oppTotals.twopta/gamesPlayed).toFixed(2);
       oppAverages.threeptm = ( oppTotals.threeptm/gamesPlayed).toFixed(2);
-      oppAverages.threepta = ( oppTotals.threepta).toFixed(2);
+      oppAverages.threepta = ( oppTotals.threepta/gamesPlayed).toFixed(2);
       oppAverages.ftm = ( oppTotals.ftm/gamesPlayed).toFixed(2);
       oppAverages.fta = ( oppTotals.fta/gamesPlayed).toFixed(2);
       oppAverages.oreb = ( oppTotals.oreb/gamesPlayed).toFixed(2);
@@ -80,14 +88,15 @@
       //--------------------ourstats----------------
 
       var ourTotals = {};
-      ourTotals.fga, ourTotals.twoptm, ourTotals.twopta, ourTotals.threeptm, ourTotals.threepta, ourTotals.ftm, ourTotals.fta, ourTotals.oreb, ourTotals.reb, ourTotals.ast, ourTotals.stl,ourTotals.blk,ourTotals.to,ourTotals.pf,ourTotals.pip,ourTotals.scp,ourTotals.pft,ourTotals.fbp,ourTotals.bp;
+      ourTotals.pts,ourTotals.fga, ourTotals.twoptm, ourTotals.twopta, ourTotals.threeptm, ourTotals.threepta, ourTotals.ftm, ourTotals.fta, ourTotals.oreb, ourTotals.reb, ourTotals.ast, ourTotals.stl,ourTotals.blk,ourTotals.to,ourTotals.pf,ourTotals.pip,ourTotals.scp,ourTotals.pft,ourTotals.fbp,ourTotals.bp;
       
       ourTotals.fgm = 0;
-      ourTotals.fga= ourTotals.twoptm= ourTotals.twopta= ourTotals.threeptm= ourTotals.threepta= ourTotals.ftm= ourTotals.fta= ourTotals.oreb= ourTotals.reb= ourTotals.ast= ourTotals.stl=ourTotals.blk=ourTotals.to=ourTotals.pf=ourTotals.pip=ourTotals.scp=ourTotals.pft=ourTotals.fbp=ourTotals.bp=ourTotals.fgm;
+      ourTotals.pts = ourTotals.fga= ourTotals.twoptm= ourTotals.twopta= ourTotals.threeptm= ourTotals.threepta= ourTotals.ftm= ourTotals.fta= ourTotals.oreb= ourTotals.reb= ourTotals.ast= ourTotals.stl=ourTotals.blk=ourTotals.to=ourTotals.pf=ourTotals.pip=ourTotals.scp=ourTotals.pft=ourTotals.fbp=ourTotals.bp=ourTotals.fgm;
 
 
       var i;
       for(i=0; i < gamesPlayed; i++){
+        ourTotals.pts += gameList.ourStats[i].pts;
         ourTotals.fgm += gameList.ourStats[i].fgm;
         ourTotals.fga += gameList.ourStats[i].fga;
         ourTotals.twoptm += gameList.ourStats[i].twoptm;
@@ -110,17 +119,24 @@
         ourTotals.bp += gameList.ourStats[i].bp;
       }
 
+      //percentages
+      ourTotals.fgp = ((ourTotals.fgm/ourTotals.fga) * 100).toFixed(2);
+      ourTotals.twoptp = ((ourTotals.twoptm/ourTotals.twopta) * 100).toFixed(2);
+      ourTotals.threeptp = ((ourTotals.threeptm/ourTotals.threepta) * 100).toFixed(2);
+      ourTotals.ftp = ((ourTotals.ftm/ourTotals.fta) * 100).toFixed(2);
+
       gameList.ourTotals = ourTotals;
       console.log("ourTotals", gameList.ourTotals);
 
       //calculate averages
       var ourAverages = {};
+      ourAverages.pts = ( ourTotals.pts/gamesPlayed).toFixed(2);
       ourAverages.fgm = ( ourTotals.fgm/gamesPlayed).toFixed(2);
       ourAverages.fga = ( ourTotals.fga/gamesPlayed).toFixed(2);
       ourAverages.twoptm = ( ourTotals.twoptm/gamesPlayed).toFixed(2);
       ourAverages.twopta = ( ourTotals.twopta/gamesPlayed).toFixed(2);
       ourAverages.threeptm = ( ourTotals.threeptm/gamesPlayed).toFixed(2);
-      ourAverages.threepta = ( ourTotals.threepta).toFixed(2);
+      ourAverages.threepta = ( ourTotals.threepta/gamesPlayed).toFixed(2);
       ourAverages.ftm = ( ourTotals.ftm/gamesPlayed).toFixed(2);
       ourAverages.fta = ( ourTotals.fta/gamesPlayed).toFixed(2);
       ourAverages.oreb = ( ourTotals.oreb/gamesPlayed).toFixed(2);

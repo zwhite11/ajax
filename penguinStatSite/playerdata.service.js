@@ -12,21 +12,33 @@
         service.getAllPlayers = function(){
             var response = $http({
                 method: "GET",
-                url: ("./players.json")            
+                url: ("/players.json")            
             });
 
-            // console.log("response: ", response);
             return response;
         };
 
         service.getStatsForPlayer = function(shortName){
             var response = $http({
                 method: "GET",
-                url: ("./players/" + shortName + ".json")            
+                url: ("/players/" + shortName + ".json")            
             });    
 
             return response;            
         };
+
+        //women's data
+
+        service.getAllWPlayers = function(){
+            var response = $http({
+                method: "GET",
+                url: ("/wPlayers.json")            
+            });
+            return response;
+        };
+
+
+
     }
     
 })();

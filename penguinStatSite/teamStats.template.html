@@ -3,6 +3,7 @@
 
     <table>
         <th></th>
+        <th>pts</th>
         <th>fgm</th>
         <th>fga</th>
         <th>fg%</th>
@@ -30,9 +31,10 @@
 
         <tr>
             <td>{{teamStats.opponentStats.opponent}}</td>
+            <td>{{teamStats.opponentStats.pts}}</td>
             <td>{{teamStats.opponentStats.fgm}}</td>
             <td>{{teamStats.opponentStats.fga}}</td>
-            <td>{{teamStats.opponentStats.fgp}}</td>
+            <td>{{teamStats.opponentStats.fgp}}%</td>
             <td>{{teamStats.opponentStats.twoptm}}</td>
             <td>{{teamStats.opponentStats.twopta}}</td>
             <td>{{teamStats.opponentStats.twoptp}}%</td>
@@ -57,9 +59,10 @@
         </tr>
         <tr>
                 <td>Penguin</td>
+                <td>{{teamStats.ourStats.pts}}</td>
                 <td>{{teamStats.ourStats.fgm}}</td>
                 <td>{{teamStats.ourStats.fga}}</td>
-                <td>{{teamStats.ourStats.fgp}}</td>
+                <td>{{teamStats.ourStats.fgp}}%</td>
                 <td>{{teamStats.ourStats.twoptm}}</td>
                 <td>{{teamStats.ourStats.twopta}}</td>
                 <td>{{teamStats.ourStats.twoptp}}%</td>
