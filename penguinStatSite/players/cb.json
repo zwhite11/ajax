@@ -144,6 +144,35 @@
             "flson": 4,
             "plusMinus": 18
             
+        },
+        {        
+            "opponent": "Burnie",
+            "location": "A",
+            "mins": 34,
+            "pts": 10,
+            "fgm": 3,
+            "fga": 8,
+            "fgp": 37,
+            "twoptm": 3,
+            "twopta": 7,
+            "twoptp": 42,
+            "threeptm": 0,
+            "threepta": 1,
+            "threeptp": 0,
+            "ftm": 4,
+            "fta": 4,
+            "ftp": 100,
+            "oreb": 2,
+            "dreb": 4,
+            "ast": 2,
+            "to":3,
+            "stl": 0,
+            "blk": 0,
+            "blkr": 0,
+            "pf": 1,
+            "flson": 3,
+            "plusMinus": -14
+            
         }]   
     
 }
