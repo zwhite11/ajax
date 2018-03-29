@@ -48,7 +48,7 @@ h2{
 
 
 
-@media (max-width:736px) and (min-width:568px) {
+@media screen and (max-width:736px) and (min-width:568px) {
 
     h1{
         font-size: 2em;
@@ -84,7 +84,7 @@ h2{
 }  
 
 
-@media (max-width:414px) and (min-width:319px) {
+@media screen and (max-width:414px) and (min-width:319px) {
     .nameList li{
         white-space: nowrap;
         margin-bottom: 2px;
