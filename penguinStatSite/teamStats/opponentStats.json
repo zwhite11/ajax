@@ -268,6 +268,36 @@
         "pft": 23,
         "fbp": 10,
         "bp": 13
+    },
+    {
+        "round": 10,
+        "opponent": "Latrobe",
+        "location": "A",
+        "pts": 69,
+        "fgm": 28,
+        "fga": 72,
+        "fgp": 38,
+        "twoptm": 20,
+        "twopta": 41,
+        "twoptp": 48,
+        "threeptm": 8,
+        "threepta": 31,
+        "threeptp": 25,
+        "ftm": 5,
+        "fta": 12,
+        "ftp": 41,
+        "oreb": 19,
+        "reb": 56,
+        "ast": 14,
+        "stl": 6,
+        "blk": 4,
+        "to": 18,
+        "pf": 10,
+        "pip": 38,
+        "scp": 20,
+        "pft": 15,
+        "fbp": 4,
+        "bp": 1
     }
     
 ]
