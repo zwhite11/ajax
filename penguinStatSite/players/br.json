@@ -229,6 +229,35 @@
             "flson": 2,
             "plusMinus": 41
             
+        },
+        {        
+            "opponent": "Wynyard",
+            "location": "H",
+            "mins": 33,
+            "pts": 14,
+            "fgm": 6,
+            "fga": 14,
+            "fgp": 42,
+            "twoptm": 5,
+            "twopta": 9,
+            "twoptp": 55,
+            "threeptm": 1,
+            "threepta": 5,
+            "threeptp": 20,
+            "ftm": 1,
+            "fta": 2,
+            "ftp": 50,
+            "oreb": 0,
+            "dreb": 4,
+            "ast": 3,
+            "to":1,
+            "stl": 3,
+            "blk": 1,
+            "blkr": 0,
+            "pf": 1,
+            "flson": 2,
+            "plusMinus": 36
+            
         }]   
     
 }
