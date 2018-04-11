@@ -259,6 +259,35 @@
             "flson": 0,
             "plusMinus": -1
             
+        },
+        {        
+            "opponent": "Latrobe",
+            "location": "A",
+            "mins": 12,
+            "pts": 8,
+            "fgm": 3,
+            "fga": 7,
+            "fgp": 42,
+            "twoptm": 1,
+            "twopta": 5,
+            "twoptp": 20,
+            "threeptm": 2,
+            "threepta": 2,
+            "threeptp": 100,
+            "ftm": 0,
+            "fta": 0,
+            "ftp": 0,
+            "oreb": 0,
+            "dreb": 1,
+            "ast": 0,
+            "to":0,
+            "stl": 1,
+            "blk": 0,
+            "blkr": 1,
+            "pf": 2,
+            "flson": 0,
+            "plusMinus": 8
+            
         }]   
     
 }
