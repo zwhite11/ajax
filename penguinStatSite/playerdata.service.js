@@ -12,7 +12,7 @@
         service.getAllPlayers = function(){
             var response = $http({
                 method: "GET",
-                url: ("/ajax/penguinStatSite/players.json")            
+                url: ("./players.json")            
             });
 
             return response;
@@ -21,18 +21,19 @@
         service.getStatsForPlayer = function(shortName){
             var response = $http({
                 method: "GET",
-                url: ("/ajax/penguinStatSite/players/" + shortName + ".json")            
+                url: ("./players/" + shortName + ".json")            
             });    
 
             return response;            
         };
+
 
         //women's data
 
         service.getAllWPlayers = function(){
             var response = $http({
                 method: "GET",
-                url: ("/ajax/penguinStatSite/wPlayers.json")            
+                url: ("./wPlayers.json")            
             });
             return response;
         };

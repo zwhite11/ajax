@@ -43,10 +43,10 @@
                 return PlayerDataService.getStatsForPlayer($stateParams.shortName).then(function(result){
                     return result.data.name;
               });
-            }]       
-            
+            }]            
         }
       })
+     
       
       .state('team', {
         url: '/team',

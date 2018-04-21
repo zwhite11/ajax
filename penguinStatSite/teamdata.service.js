@@ -11,7 +11,7 @@
         service.getAllGames = function(){
             var response = $http({
                 method: "GET",
-                url: ("/ajax/penguinStatSite/teamStats/opponentStats.json")            
+                url: ("/teamStats/opponentStats.json")            
             });
 
             // console.log("response: ", response);
@@ -21,7 +21,7 @@
         service.getGameStats = function(round){
             var response = $http({
                 method: "GET",
-                url: ("/ajax/penguinStatSite/teamStats/opponentStats.json")            
+                url: ("/teamStats/opponentStats.json")            
             });  
             service.round = round;
 
@@ -31,7 +31,7 @@
         service.getOurStats = function(round){
             var response = $http({
                 method: "GET",
-                url: ("/ajax/penguinStatSite/teamStats/ourStats.json")            
+                url: ("/teamStats/ourStats.json")            
             });  
             service.round = round;
 
@@ -44,7 +44,7 @@
         service.getAllWGames = function(){
             var response = $http({
                 method: "GET",
-                url: ("/ajax/penguinStatSite/wTeamStats/opponentStats.json")            
+                url: ("/wTeamStats/opponentStats.json")            
             });
 
             // console.log("response: ", response);
@@ -54,7 +54,7 @@
         service.getWGameStats = function(round){
             var response = $http({
                 method: "GET",
-                url: ("/ajax/penguinStatSite/wTeamStats/opponentStats.json")            
+                url: ("/wTeamStats/opponentStats.json")            
             });  
             service.round = round;
 
@@ -64,7 +64,7 @@
         service.getOurWStats = function(){
             var response = $http({
                 method: "GET",
-                url: ("/ajax/penguinStatSite/wTeamStats/ourStats.json")            
+                url: ("/wTeamStats/ourStats.json")            
             });  
 
             return response;            

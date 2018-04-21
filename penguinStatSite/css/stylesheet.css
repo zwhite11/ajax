@@ -10,6 +10,7 @@ table, th, td {
 
 table {
     border-collapse: collapse;
+    width: 85%;
 }
 
 th, td {
@@ -46,9 +47,45 @@ h2{
     text-decoration: underline;
 }
 
+#selectors{
+    display: grid;
+    /* grid-template-rows: 100px 100px 100px 100px; */
+    grid-template-columns: 20% 20% 20% 20% 20%;   
+    width: 85%; 
+}
+
+.filter{
+    color: blue;
+    display: grid;
+    justify-content: center;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    align-items: center
+}
+.filter:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#home{
+    display: none; 
+}
+#away{
+    display: none;
+}
+#wins{
+    display: none;
+}
+#losses{
+    display: none;
+}
+.currentLink{
+     color: white;
+     background-color: blue;
+ }
 
 
-@media screen and (max-width:736px) and (min-width:568px) {
+@media screen and (min-width:568px) {
 
     h1{
         font-size: 2em;
@@ -69,6 +106,7 @@ h2{
     }
   
     .nameList li{
+        /* font-size: 2em; */
         white-space: nowrap;
         margin-bottom: 5px;
     }
@@ -79,7 +117,7 @@ h2{
 }  
 
 
-@media screen and (max-width:414px) and (min-width:319px) {
+@media screen and (max-width:567px) and (min-width:319px) {
     h1{
         font-size: 2em;
     }
