@@ -4,6 +4,7 @@
         [{
             "opponent": "Burnie",
             "location": "H",
+            "result": "W",
             "mins": 10,
             "pts": 0,
             "fgm": 0,
@@ -32,6 +33,7 @@
         {        
             "opponent": "Wynyard",
             "location": "A",
+            "result": "W",
             "mins": 9,
             "pts": 2,
             "fgm": 1,
@@ -61,6 +63,7 @@
         {        
             "opponent": "Latrobe",
             "location": "H",
+            "result": "W",
             "mins": 7,
             "pts": 0,
             "fgm": 0,
@@ -89,6 +92,7 @@
         {        
             "opponent": "Somerset",
             "location": "A",
+            "result": "L",
             "mins": 4,
             "pts": 0,
             "fgm": 0,
@@ -117,6 +121,7 @@
         {        
             "opponent": "Wynyard",
             "location": "H",
+            "result": "W",
             "mins": 9,
             "pts": 2,
             "fgm": 1,

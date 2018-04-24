@@ -4,6 +4,7 @@
         [{
             "opponent": "Burnie",
             "location": "H",
+            "result": "W",
             "mins": 38,
             "pts": 14,
             "fgm": 5,
@@ -32,6 +33,7 @@
         {        
             "opponent": "Wynyard",
             "location": "A",
+            "result": "L",
             "mins": 25,
             "pts": 12,
             "fgm": 5,
@@ -61,6 +63,7 @@
         {        
             "opponent": "Latrobe",
             "location": "H",
+            "result": "W",
             "mins": 35,
             "pts": 23,
             "fgm": 11,
@@ -89,6 +92,7 @@
         {        
             "opponent": "Ulverstone",
             "location": "A",
+            "result": "W",
             "mins": 32,
             "pts": 11,
             "fgm": 4,
@@ -117,6 +121,7 @@
         {        
             "opponent": "Somerset",
             "location": "A",
+            "result": "W",
             "mins": 34,
             "pts": 22,
             "fgm": 8,
@@ -146,6 +151,7 @@
         {        
             "opponent": "Devonport",
             "location": "H",
+            "result": "W",
             "mins": 22,
             "pts": 9,
             "fgm": 4,
@@ -175,6 +181,7 @@
         {        
             "opponent": "Smithton",
             "location": "A",
+            "result": "W",
             "mins": 36,
             "pts": 15,
             "fgm": 5,
@@ -204,6 +211,7 @@
         {        
             "opponent": "Burnie",
             "location": "A",
+            "result": "L",
             "mins": 34,
             "pts": 16,
             "fgm": 6,
@@ -233,6 +241,7 @@
         {        
             "opponent": "Wynyard",
             "location": "H",
+            "result": "W",
             "mins": 48,
             "pts": 33,
             "fgm": 12,
@@ -257,6 +266,36 @@
             "pf": 4,
             "flson": 5,
             "plusMinus": 7
+            
+        },
+        {        
+            "opponent": "Ulverstone",
+            "location": "H",
+            "result": "W",
+            "mins": 19,
+            "pts": 4,
+            "fgm": 2,
+            "fga": 5,
+            "fgp": 40,
+            "twoptm": 2,
+            "twopta": 4,
+            "twoptp": 50,
+            "threeptm": 0,
+            "threepta": 1,
+            "threeptp": 0,
+            "ftm": 0,
+            "fta": 0,
+            "ftp": 0,
+            "oreb": 2,
+            "dreb": 2,
+            "ast": 0,
+            "to":1,
+            "stl": 0,
+            "blk": 2,
+            "blkr": 0,
+            "pf": 2,
+            "flson": 0,
+            "plusMinus": 13
             
         }]   
     

@@ -4,6 +4,7 @@
         [{
             "opponent": "Burnie",
             "location": "H",
+            "result": "W",
             "mins": 7,
             "pts": 0,
             "fgm": 0,
@@ -32,6 +33,7 @@
         {        
             "opponent": "Wynyard",
             "location": "A",
+            "result": "W",
             "mins": 4,
             "pts": 0,
             "fgm": 0,
@@ -61,6 +63,7 @@
         {        
             "opponent": "Latrobe",
             "location": "H",
+            "result": "W",
             "mins": 5,
             "pts": 3,
             "fgm": 1,
@@ -89,6 +92,7 @@
         {        
             "opponent": "Smithton",
             "location": "A",
+            "result": "W",
             "mins": 8,
             "pts": 2,
             "fgm": 1,
@@ -117,6 +121,7 @@
         {        
             "opponent": "Burnie",
             "location": "A",
+            "result": "W",
             "mins": 10,
             "pts": 2,
             "fgm": 1,
@@ -146,6 +151,7 @@
         {        
             "opponent": "Wynyard",
             "location": "H",
+            "result": "W",
             "mins": 7,
             "pts": 0,
             "fgm": 0,
@@ -175,6 +181,7 @@
         {        
             "opponent": "Latrobe",
             "location": "A",
+            "result": "W",
             "mins": 5,
             "pts": 0,
             "fgm": 0,

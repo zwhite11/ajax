@@ -4,6 +4,7 @@
         [{
             "opponent": "Burnie",
             "location": "H",
+            "result": "W",
             "mins": 37,
             "pts": 5,
             "fgm":2,
@@ -32,6 +33,7 @@
         {        
             "opponent": "Wynyard",
             "location": "A",
+            "result": "L",
             "mins": 26,
             "pts": 7,
             "fgm": 3,
@@ -60,6 +62,7 @@
         {        
             "opponent": "Latrobe",
             "location": "H",
+            "result": "W",
             "mins": 40,
             "pts": 21,
             "fgm": 8,
@@ -88,6 +91,7 @@
         {        
             "opponent": "Ulverstone",
             "location": "A",
+            "result": "W",
             "mins": 35,
             "pts": 8,
             "fgm": 3,
@@ -116,6 +120,7 @@
         {        
             "opponent": "Somerset",
             "location": "A",
+            "result": "W",
             "mins": 37,
             "pts": 7,
             "fgm": 3,
@@ -144,6 +149,7 @@
         {        
             "opponent": "Devonport",
             "location": "H",
+            "result": "W",
             "mins": 27,
             "pts": 12,
             "fgm": 6,
@@ -173,6 +179,7 @@
         {        
             "opponent": "Smithton",
             "location": "A",
+            "result": "W",
             "mins": 34,
             "pts": 9,
             "fgm": 4,
@@ -202,6 +209,7 @@
         {        
             "opponent": "Burnie",
             "location": "A",
+            "result": "L",
             "mins": 33,
             "pts": 18,
             "fgm": 6,
@@ -231,6 +239,7 @@
         {        
             "opponent": "Wynyard",
             "location": "H",
+            "result": "W",
             "mins": 42,
             "pts": 8,
             "fgm": 2,
@@ -260,6 +269,7 @@
         {        
             "opponent": "Latrobe",
             "location": "A",
+            "result": "L",
             "mins": 31,
             "pts": 6,
             "fgm": 2,
@@ -284,6 +294,36 @@
             "pf": 1,
             "flson": 2,
             "plusMinus": -7
+            
+        },
+        {        
+            "opponent": "Ulverstone",
+            "location": "H",
+            "result": "W",
+            "mins": 36,
+            "pts": 20,
+            "fgm": 7,
+            "fga": 19,
+            "fgp": 36,
+            "twoptm": 5,
+            "twopta": 10,
+            "twoptp": 50,
+            "threeptm": 2,
+            "threepta": 9,
+            "threeptp": 22,
+            "ftm": 4,
+            "fta": 6,
+            "ftp": 66,
+            "oreb": 2,
+            "dreb": 3,
+            "ast": 6,
+            "to":1,
+            "stl": 1,
+            "blk": 0,
+            "blkr": 0,
+            "pf": 2,
+            "flson": 3,
+            "plusMinus": 23
             
         }]   
     

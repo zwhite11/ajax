@@ -5,6 +5,7 @@
         {        
             "opponent": "Wynyard",
             "location": "A",
+            "result": "L",
             "mins": 10,
             "pts": 0,
             "fgm": 0,
@@ -34,6 +35,7 @@
         {        
             "opponent": "Smithton",
             "location": "A",
+            "result": "W",
             "mins": 1,
             "pts": 0,
             "fgm": 0,

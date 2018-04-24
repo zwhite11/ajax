@@ -5,6 +5,7 @@
         {        
             "opponent": "Wynyard",
             "location": "A",
+            "result": "W",
             "mins": 28,
             "pts": 5,
             "fgm": 2,
@@ -34,6 +35,7 @@
         {        
             "opponent": "Latrobe",
             "location": "H",
+            "result": "W",
             "mins": 24,
             "pts": 6,
             "fgm": 2,
@@ -62,6 +64,7 @@
         {        
             "opponent": "Ulverstone",
             "location": "A",
+            "result": "W",
             "mins": 30,
             "pts": 4,
             "fgm": 2,
@@ -90,6 +93,7 @@
         {        
             "opponent": "Devonport",
             "location": "H",
+            "result": "L",
             "mins": 31,
             "pts": 8,
             "fgm": 4,
@@ -119,6 +123,7 @@
         {        
             "opponent": "Smithton",
             "location": "A",
+            "result": "W",
             "mins": 24,
             "pts": 10,
             "fgm": 4,
@@ -147,6 +152,7 @@
         {        
             "opponent": "Burnie",
             "location": "A",
+            "result": "W",
             "mins": 24,
             "pts": 8,
             "fgm": 4,
@@ -176,6 +182,7 @@
         {        
             "opponent": "Wynyard",
             "location": "H",
+            "result": "W",
             "mins": 24,
             "pts": 13,
             "fgm": 5,
@@ -205,6 +212,7 @@
         {        
             "opponent": "Latrobe",
             "location": "A",
+            "result": "W",
             "mins": 27,
             "pts": 8,
             "fgm": 3,
@@ -229,6 +237,36 @@
             "pf": 1,
             "flson": 3,
             "plusMinus": 17
+            
+        },
+        {        
+            "opponent": "Ulverstone",
+            "location": "H",
+            "result": "W",
+            "mins": 35,
+            "pts": 10,
+            "fgm": 4,
+            "fga": 5,
+            "fgp": 80,
+            "twoptm": 3,
+            "twopta": 4,
+            "twoptp": 75,
+            "threeptm": 1,
+            "threepta": 1,
+            "threeptp": 100,
+            "ftm": 1,
+            "fta": 1,
+            "ftp": 100,
+            "oreb": 0,
+            "dreb": 3,
+            "ast": 2,
+            "to":4,
+            "stl": 4,
+            "blk": 0,
+            "blkr": 1,
+            "pf": 2,
+            "flson": 1,
+            "plusMinus": 15
             
         }  ]   
     

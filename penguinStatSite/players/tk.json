@@ -4,6 +4,7 @@
         [{
             "opponent": "Burnie",
             "location": "H",
+            "result": "W",
             "mins": 24,
             "pts": 23,
             "fgm": 9,
@@ -32,6 +33,7 @@
         {        
             "opponent": "Wynyard",
             "location": "A",
+            "result": "L",
             "mins": 22,
             "pts": 9,
             "fgm": 3,
@@ -61,6 +63,7 @@
         {        
             "opponent": "Latrobe",
             "location": "H",
+            "result": "W",
             "mins": 18,
             "pts": 4,
             "fgm": 2,
@@ -89,6 +92,7 @@
         {        
             "opponent": "Ulverstone",
             "location": "A",
+            "result": "W",
             "mins": 15,
             "pts": 2,
             "fgm": 1,
@@ -118,6 +122,7 @@
         {        
             "opponent": "Somerset",
             "location": "A",
+            "result": "W",
             "mins": 15,
             "pts": 6,
             "fgm": 1,
@@ -147,6 +152,7 @@
         {        
             "opponent": "Devonport",
             "location": "H",
+            "result": "W",
             "mins": 20,
             "pts": 7,
             "fgm": 3,
@@ -176,6 +182,7 @@
         {        
             "opponent": "Smithton",
             "location": "A",
+            "result": "W",
             "mins": 27,
             "pts": 6,
             "fgm": 3,
@@ -205,6 +212,7 @@
         {        
             "opponent": "Burnie",
             "location": "A",
+            "result": "L",
             "mins": 16,
             "pts": 4,
             "fgm": 2,
@@ -234,6 +242,7 @@
         {        
             "opponent": "Wynyard",
             "location": "H",
+            "result": "W",
             "mins": 24,
             "pts": 4,
             "fgm": 1,
@@ -263,6 +272,7 @@
         {        
             "opponent": "Latrobe",
             "location": "A",
+            "result": "L",
             "mins": 20,
             "pts": 8,
             "fgm": 3,
