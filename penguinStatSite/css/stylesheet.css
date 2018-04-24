@@ -116,6 +116,9 @@ h2{
     /* vert between  320 and 414 */
 }  
 
+.bottomTable{
+    padding-bottom: 25px;
+}
 
 @media screen and (max-width:567px) and (min-width:319px) {
     h1{
