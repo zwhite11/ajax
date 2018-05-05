@@ -297,6 +297,36 @@
             "flson": 0,
             "plusMinus": 20
             
-        }]   
+        },
+        {        
+            "opponent": "Somerset",
+            "location": "H",
+            "result": "W",
+            "mins": 32,
+            "pts": 8,
+            "fgm": 3,
+            "fga": 9,
+            "fgp": 33,
+            "twoptm": 1,
+            "twopta": 3,
+            "twoptp": 33,
+            "threeptm": 2,
+            "threepta": 6,
+            "threeptp": 33,
+            "ftm": 0,
+            "fta": 0,
+            "ftp": 0,
+            "oreb": 1,
+            "dreb": 3,
+            "ast": 8,
+            "to":3,
+            "stl": 1,
+            "blk": 0,
+            "blkr": 0,
+            "pf": 0,
+            "flson": 0,
+            "plusMinus": 26
+            
+        } ]   
     
 }

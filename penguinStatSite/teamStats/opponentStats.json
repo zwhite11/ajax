@@ -370,6 +370,37 @@
         "pft": 14,
         "fbp": 17,
         "bp": 3
+    },
+    {
+        "round": 13,
+        "opponent": "Devonport",
+        "location": "A",
+        "result": "W",
+        "pts": 74,
+        "fgm": 32,
+        "fga": 70,
+        "fgp": 40,
+        "twoptm": 23,
+        "twopta": 53,
+        "twoptp": 43,
+        "threeptm": 9,
+        "threepta": 26,
+        "threeptp": 34,
+        "ftm": 1,
+        "fta": 4,
+        "ftp": 25,
+        "oreb": 10,
+        "reb": 34,
+        "ast": 15,
+        "stl": 8,
+        "blk": 4,
+        "to": 10,
+        "pf": 11,
+        "pip": 26,
+        "scp": 12,
+        "pft": 8,
+        "fbp": 4,
+        "bp": 12
     }
     
 ]

@@ -268,6 +268,66 @@
             "flson": 1,
             "plusMinus": 15
             
-        }  ]   
+        },
+        {        
+            "opponent": "Somerset",
+            "location": "H",
+            "result": "W",
+            "mins": 32,
+            "pts": 4,
+            "fgm": 2,
+            "fga": 8,
+            "fgp": 25,
+            "twoptm": 2,
+            "twopta": 5,
+            "twoptp": 40,
+            "threeptm": 0,
+            "threepta": 3,
+            "threeptp": 0,
+            "ftm": 0,
+            "fta": 0,
+            "ftp": 0,
+            "oreb": 1,
+            "dreb": 2,
+            "ast": 2,
+            "to":0,
+            "stl": 2,
+            "blk": 1,
+            "blkr": 0,
+            "pf": 2,
+            "flson": 1,
+            "plusMinus": 2
+            
+        },
+        {        
+            "opponent": "Devonport",
+            "location": "A",
+            "result": "W",
+            "mins": 25,
+            "pts": 2,
+            "fgm": 1,
+            "fga": 4,
+            "fgp": 25,
+            "twoptm": 1,
+            "twopta": 3,
+            "twoptp": 33,
+            "threeptm": 0,
+            "threepta": 1,
+            "threeptp": 0,
+            "ftm": 0,
+            "fta": 0,
+            "ftp": 0,
+            "oreb": 1,
+            "dreb": 2,
+            "ast": 1,
+            "to":2,
+            "stl": 0,
+            "blk": 0,
+            "blkr": 0,
+            "pf": 3,
+            "flson": 1,
+            "plusMinus": -5
+            
+        }   ]   
     
 }

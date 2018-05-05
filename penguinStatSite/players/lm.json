@@ -1,0 +1,66 @@
+{
+    "name": "Lauren Mansfield",
+    "stats": 
+        [
+        {        
+            "opponent": "Somerset",
+            "location": "H",
+            "result": "W",
+            "mins": 21,
+            "pts": 9,
+            "fgm": 4,
+            "fga": 11,
+            "fgp": 36,
+            "twoptm": 3,
+            "twopta": 5,
+            "twoptp": 60,
+            "threeptm": 1,
+            "threepta": 6,
+            "threeptp": 16,
+            "ftm": 0,
+            "fta": 0,
+            "ftp": 0,
+            "oreb": 3,
+            "dreb": 3,
+            "ast": 3,
+            "to":2,
+            "stl": 1,
+            "blk": 0,
+            "blkr": 0,
+            "pf": 0,
+            "flson": 0,
+            "plusMinus": 5
+            
+        },
+        {        
+            "opponent": "Devonport",
+            "location": "A",
+            "result": "W",
+            "mins": 29,
+            "pts": 17,
+            "fgm": 5,
+            "fga": 12,
+            "fgp": 41,
+            "twoptm": 2,
+            "twopta": 4,
+            "twoptp": 50,
+            "threeptm": 3,
+            "threepta": 8,
+            "threeptp": 37,
+            "ftm": 4,
+            "fta": 4,
+            "ftp": 100,
+            "oreb": 2,
+            "dreb": 1,
+            "ast": 3,
+            "to":0,
+            "stl": 1,
+            "blk": 0,
+            "blkr": 0,
+            "pf": 0,
+            "flson": 2,
+            "plusMinus": 4
+            
+        }]   
+    
+}

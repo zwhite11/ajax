@@ -326,6 +326,36 @@
             "flson": 4,
             "plusMinus": 13
             
+        },
+        {        
+            "opponent": "Devonport",
+            "location": "A",
+            "result": "W",
+            "mins": 20,
+            "pts": 6,
+            "fgm": 3,
+            "fga": 6,
+            "fgp": 50,
+            "twoptm": 3,
+            "twopta": 6,
+            "twoptp": 50,
+            "threeptm": 0,
+            "threepta": 0,
+            "threeptp": 0,
+            "ftm": 0,
+            "fta": 2,
+            "ftp": 0,
+            "oreb": 1,
+            "dreb": 2,
+            "ast": 2,
+            "to":1,
+            "stl": 0,
+            "blk": 0,
+            "blkr": 0,
+            "pf": 2,
+            "flson": 4,
+            "plusMinus": -1
+            
         }  ] 
     
 }
