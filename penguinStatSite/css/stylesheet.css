@@ -66,6 +66,12 @@ h2{
     text-decoration: underline;
     cursor: pointer;
 }
+.gameList{
+    font-size: 14px;
+    -webkit-columns: 100px 3; 
+    -moz-columns: 100px 3; 
+    columns:100px 3;
+}
 
 #home{
     display: none; 
@@ -79,10 +85,12 @@ h2{
 #losses{
     display: none;
 }
+
 .currentLink{
      color: white;
      background-color: blue;
  }
+ 
 
 
 @media screen and (min-width:568px) {
@@ -96,20 +104,22 @@ h2{
     }
     ul{
         list-style-type: none;
-        /* display: block; */
+        display: inline-block;
     }
 
     .nameList {        
-        -webkit-columns: 100px 3; /* Chrome, Safari, Opera */
-        -moz-columns: 100px 3; /* Firefox */
+        -webkit-columns: 100px 3; 
+        -moz-columns: 100px 3; 
         columns:100px 3;
     }
   
     .nameList li{
-        /* font-size: 2em; */
         white-space: nowrap;
         margin-bottom: 5px;
     }
+
+  
+
 
 
     /*  horizontal phone width between 568 and 736 */
