@@ -401,6 +401,37 @@
         "pft": 8,
         "fbp": 4,
         "bp": 12
+    },
+    {
+        "round": 14,
+        "opponent": "Smithton",
+        "location": "H",
+        "result": "W",
+        "pts": 72,
+        "fgm": 29,
+        "fga": 70,
+        "fgp": 41,
+        "twoptm": 18,
+        "twopta": 38,
+        "twoptp": 47,
+        "threeptm": 11,
+        "threepta": 32,
+        "threeptp": 34,
+        "ftm": 3,
+        "fta": 5,
+        "ftp": 60,
+        "oreb": 9,
+        "reb": 31,
+        "ast": 16,
+        "stl": 6,
+        "blk": 2,
+        "to": 10,
+        "pf": 12,
+        "pip": 26,
+        "scp": 13,
+        "pft": 8,
+        "fbp": 3,
+        "bp": 2
     }
     
 ]
