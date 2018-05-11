@@ -327,6 +327,36 @@
             "flson": 0,
             "plusMinus": 26
             
+        } ,
+        {        
+            "opponent": "Smithton",
+            "location": "H",
+            "result": "W",
+            "mins": 29,
+            "pts": 8,
+            "fgm": 3,
+            "fga": 11,
+            "fgp": 27,
+            "twoptm": 1,
+            "twopta": 2,
+            "twoptp": 50,
+            "threeptm": 2,
+            "threepta": 9,
+            "threeptp": 22,
+            "ftm": 0,
+            "fta": 0,
+            "ftp": 0,
+            "oreb": 2,
+            "dreb": 2,
+            "ast": 6,
+            "to":1,
+            "stl": 0,
+            "blk": 0,
+            "blkr": 0,
+            "pf": 1,
+            "flson": 0,
+            "plusMinus": 11
+            
         } ]   
     
 }
