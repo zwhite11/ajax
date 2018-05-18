@@ -432,6 +432,37 @@
         "pft": 8,
         "fbp": 3,
         "bp": 2
+    },
+    {
+        "round": 15,
+        "opponent": "Burnie",
+        "location": "H",
+        "result": "W",
+        "pts": 59,
+        "fgm": 22,
+        "fga": 69,
+        "fgp": 31,
+        "twoptm": 15,
+        "twopta": 34,
+        "twoptp": 44,
+        "threeptm": 7,
+        "threepta": 25,
+        "threeptp": 28,
+        "ftm": 8,
+        "fta": 14,
+        "ftp": 57,
+        "oreb": 7,
+        "reb": 32,
+        "ast": 8,
+        "stl": 8,
+        "blk": 2,
+        "to": 12,
+        "pf": 12,
+        "pip": 24,
+        "scp": 9,
+        "pft": 13,
+        "fbp": 11,
+        "bp": 27
     }
     
 ]
