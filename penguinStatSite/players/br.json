@@ -417,6 +417,35 @@
             "flson": 1,
             "plusMinus": 23
             
+        },
+        {        
+            "opponent": "Burnie",
+            "location": "H",
+            "result": "W",
+            "mins": 25,
+            "pts": 17,
+            "fgm": 6,
+            "fga": 12,
+            "fgp": 50,
+            "twoptm": 1,
+            "twopta": 2,
+            "twoptp": 50,
+            "threeptm": 5,
+            "threepta": 10,
+            "threeptp": 50,
+            "ftm": 0,
+            "fta": 0,
+            "ftp": 0,
+            "oreb": 2,
+            "dreb": 2,
+            "ast": 1,
+            "to":0,
+            "stl": 1,
+            "blk": 0,
+            "blkr": 0,
+            "pf": 2,
+            "flson": 0,
+            "plusMinus": 39
         } ]   
     
 }
