@@ -7,3 +7,6 @@ Enroll in the [complete free course on AngularJS][aeac87f1]
 
   [Single Page Web Applications with AngularJS][39804538]
   [39804538]: https://www.coursera.org/learn/single-page-web-apps-with-angularjs "Enroll in the course on AngluarJS"
+
+
+Final description: https://github.com/jhu-ep-coursera/fullstack-course5/blob/master/assignments/assignment5/Assignment-5.md
