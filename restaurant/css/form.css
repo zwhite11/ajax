@@ -1,0 +1,34 @@
+body {
+    font-size: 1.2em;
+}
+input {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+button {
+  font-size: 24px;
+}
+
+button[disabled]{
+  color:grey;
+}
+httpresponse{
+  color:white;
+  font-size: 1.4em;
+}
+form span{
+  color:white;
+}
+
+.ng-touched.ng-valid {
+  border: 2px green solid;
+}
+
+.ng-touched.ng-invalid {
+  border: 2px red solid;
+}
+
+#info {
+  margin-top: 20px;
+}
+  

@@ -1,0 +1,60 @@
+#header-nav {
+    background-color: lightblue;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    vertical-align: center;  
+}
+
+.navbar-brand h1 { /* "Food LLC" */
+    font-family: 'Lora', serif;
+    color: lightyellow;
+    font-size: 1.75em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .50;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid lightyellow;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -40px;
+}
+/* #collapsable-nav{
+    background-color: lightyellow;
+} */
+ #nav-list {
+    margin: 0;
+    background-color: lightyellow;
+}
+
+#nav-list a {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#nav-list a:hover {
+    background: #E7E7E7;
+} 
+
+hr{
+    margin: 0;
+    padding: 0;
+}
+#meat-choice{
+    padding: 5px;
+    position: relative;
+    border: 1px solid black;
+    background-color: lightyellow;
+}
+
+.col-sm-6{
+    margin-bottom: 10px;
+}

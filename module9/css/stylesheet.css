@@ -1,0 +1,5 @@
+li[ui-sref]:hover {
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: underline;
+}

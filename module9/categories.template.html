@@ -1,0 +1,7 @@
+<ul class="col-lg-6">
+    <li ng-repeat="item in catList.categories" ui-sref="categories.itemDetail({shortName: item.short_name})">
+      {{ item.name }} 
+    </li>
+</ul>
+<ui-view></ui-view>
+  

@@ -1,0 +1,166 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Verdana;
+  }  
+
+.title:before {
+    content: "Our Menu";       
+}
+.title{
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 175%; 
+}
+
+.menu{
+    width: 100%;
+}
+
+.section{
+    float: left;
+    position: relative; 
+}
+
+.s1{
+    width: 50%;
+}
+.s2{
+    width: 50%;
+}
+.s3{
+    width: 100%;
+    margin-top: 2.5%;
+}
+
+.content{
+    position: relative;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: grey; 
+    border: 1px solid black; 
+}
+.c3{
+    width: 97.5%;
+}
+
+.label{
+    width: 33.33%;
+    float: right;
+    text-align: center;
+    font-size: 125%;
+    border: 1px solid black;
+}
+
+p{
+    position: relative;
+    clear: both;
+    padding: 5px;
+    margin: 5px;
+    height: 100px;
+    overflow: hidden;
+}
+p:hover{
+    overflow: auto;
+}
+
+.chicken{
+    background-color: pink;
+}
+.chicken:before{
+    content: "Chicken";
+}
+
+.beef{
+    background-color: red;
+    color: white;
+}
+.beef:before{
+    content: "Beef";
+}
+
+.sushi{
+    background-color: yellow;
+}
+.sushi:before{
+    content: "Sushi";
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+    .section{
+        width: 33.333%;
+    }
+
+    .c3{
+        width: 95%;
+    }
+
+    .s3{
+        margin-top: 0;
+    }
+          
+}
+
+/********** Medium devices only **********/
+ @media (min-width: 768px) and (max-width: 991px) {
+    .s1{
+        width: 50%;
+    }
+    .s2{
+        width: 50%;
+    }
+    .s3{
+        width: 100%;
+        margin-top: 2.5%;
+    }
+    .c3{
+        width: 97.5%;
+    }
+    
+}
+
+/********** Small devices only **********/
+ 
+@media  (max-width: 767px) {
+    .section{
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+    .label{
+        width: 100%;
+    }
+
+    .title:before{
+        position: relative;
+        clear: both;
+        width: 100%;
+        content: "Categories";
+        font-size: 75%;
+        font-family: Courier New, Courier, monospace;  
+        font-weight: bold;      
+    }
+    .title{
+        position: relative;
+        float: left;
+        margin-left: 2.5%;
+    }
+    
+    .c3{        
+        width: 95%;        
+    }
+    .chicken:before{
+        content: "chicken hopkins hopkins hopkins hopkins hopkins hopkins hopkins hopkins hopkins"; 
+    }
+
+    .beef:before{
+        content: "beef hopkins hopkins hopkins hopkins hopkins hopkins hopkins hopkins hopkins ";
+    }
+
+    .sushi:before{
+        content: "sushi hopkins hopkins hopkins hopkins hopkins hopkins hopkins hopkins hopkins";
+    }    
+} 
